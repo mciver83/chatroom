@@ -7,13 +7,24 @@ body {
   height: 95%;
   width: 100%;
   font-family: sans-serif;
-  background-image: url('http://addyosmani.com/blog/wp-content/uploads/2013/04/unicorn.jpg');
+  background-repeat: none;
+  background-position: center;
+  background-image: url('http://www.hdwallpapers3d.co/wp-content/uploads/2014/05/Dark-Backgrounds-Wallpapers.jpg');
+  color: #32cd32;
+
+}
+
+.chatRooms {
+  float: left;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .main-container {
-  width: 75%;
+  width: 60%;
   margin: 10px auto;
-  background: rgba(255, 255, 255, 0.86);
+  background: rgba(0, 0, 0, 0.7);
   padding: 5px;
   border-radius: 10px;
 }
@@ -21,6 +32,16 @@ body {
 .main-container h1 {
   text-align: center;
 }
+
+.messages-container {
+  margin-top: 5%;
+}
+
+.message {
+  border-top: solid 1px grey;
+  padding: 10px;
+}
+
 
 .text-box {
   margin: 0px auto;
@@ -31,4 +52,10 @@ p{
   text-align: center;
   margin: 3px 0;
   font-size: 17px;
+}
+
+.date {
+  padding: 5px;
+  font-size: 10px;
+  color: white;
 }

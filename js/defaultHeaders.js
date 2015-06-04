@@ -1,3 +1,5 @@
+/*
+
 var app = angular.module('chatroom');
 
 app.factory('httpRequestInterceptor', function () {
@@ -8,3 +10,5 @@ app.factory('httpRequestInterceptor', function () {
     }
   };
 });
+
+*/
